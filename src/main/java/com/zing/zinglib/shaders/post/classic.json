@@ -1,0 +1,26 @@
+{
+    "targets": [
+        "swap",
+        "final"
+    ],
+    "passes": [
+        {
+            "name": "zinglib:color_convolve",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "uniforms": [
+                { "name": "Saturation", "values": [ 1.15 ] },
+                { "name": "Contrast", "values": [ 0.95 ] }
+            ]
+        },
+        {
+            "name": "zinglib:blur",
+            "intarget": "swap",
+            "outtarget": "final",
+            "uniforms": [
+                { "name": "BlurDir", "values": [ 1.0, 0.0 ] },
+                { "name": "Radius", "values": [ 0.5 ] }
+            ]
+        }
+    ]
+}

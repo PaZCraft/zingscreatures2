@@ -1,0 +1,13 @@
+{
+  "itemGroup.zingscreatures2": "Example Mod Tab",
+  "block.zingscreatures2.example_block": "Example Block",
+  "item.zingscreatures2.example_item": "Example Item",
+
+  "zingscreatures2.configuration.title": "ZiNG's Creatures 2 Configs",
+  "zingscreatures2.configuration.section.zingscreatures2.common.toml": "ZiNG's Creatures 2 Configs",
+  "zingscreatures2.configuration.section.zingscreatures2.common.toml.title": "ZiNG's Creatures 2 Configs",
+  "zingscreatures2.configuration.items": "Item List",
+  "zingscreatures2.configuration.logDirtBlock": "Log Dirt Block",
+  "zingscreatures2.configuration.magicNumberIntroduction": "Magic Number Text",
+  "zingscreatures2.configuration.magicNumber": "Magic Number"
+}
