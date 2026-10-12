@@ -1,6 +1,6 @@
 package com.zing.zinglib.shader;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public enum SpecialEffect {
     // Dimension presets
@@ -16,13 +16,13 @@ public enum SpecialEffect {
     GREEN("green"), DESATURATE("desaturate"), BLUR("blur"), WOBBLE("wobble"), 
     BLOBS("blobs"), ANTIALIAS("antialias"), CREEPER("creeper"), SPIDER("spider");
 
-    private final ResourceLocation shaderLocation;
+    private final Identifier shaderLocation;
 
     SpecialEffect(String name) {
-        this.shaderLocation = ResourceLocation.fromNamespaceAndPath("zinglib", "shaders/post/" + name + ".json");
+        this.shaderLocation = Identifier.fromNamespaceAndPath("zinglib", "shaders/post/" + name + ".json");
     }
 
-    public ResourceLocation getShaderLocation() {
+    public Identifier getShaderLocation() {
         return this.shaderLocation;
     }
 }
