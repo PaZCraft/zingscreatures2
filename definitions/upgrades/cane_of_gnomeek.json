@@ -1,0 +1,13 @@
+
+{
+  "upgrade_name": "Cane of Gnomeek",
+  "upgrade_category": "weapon",
+  "upgrade_type": "sword",
+  "upgrade_era": "legend",
+  "upgrade_level_requirement": 5,
+  "unlocks_upgrade": [
+    "zings_creatures_2:complete_gnomeek_quest"
+  ],
+  "upgrade_item": "zings_creatures_2:upgrade_weapons",
+  "upgrade_desc": "A weapon associated with Gnomeek."
+}

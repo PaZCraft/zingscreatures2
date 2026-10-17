@@ -1,0 +1,18 @@
+
+{
+  "powerup_class": "aquatic",
+  "powerup_name": "Bubble Blast",
+  "powerup_category": "ranged",
+  "powerup_tier_upgrade": "origin",
+  "powerup_charge_time": 40,
+  "does_powerup_inflict": true,
+  "powerup_inflict": "minecraft:slowness",
+  "powerup_entity": "minecraft:wind_charge",
+  "powerup_particle_effect": "minecraft:bubble",
+  "powerup_sound": "minecraft:entity.player.splash",
+  "powerup_level_unlock": 5,
+  "powerup_desc": "Launches a burst of bubbles at enemies.",
+  "powerup_icon": "zings_creatures_2:item/powerup/bubble_blast",
+  "powerup_icon_hud": "zings_creatures_2:hud/powerup/bubble_blast",
+  "powerup_damage_type": "zings_creatures_2:aquatic"
+}

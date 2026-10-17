@@ -1,0 +1,34 @@
+
+{
+  "humanoid": "drone",
+  "profession": "technician",
+  "routine": "villager",
+  "tasks": [
+    "repair",
+    "craft",
+    "trade"
+  ],
+  "battle_type": "defense",
+  "system_type": "trading",
+  "personality": {
+    "openness": 65,
+    "conscientiousness": 90,
+    "extraversion": 40,
+    "agreeableness": 70,
+    "neuroticism": 20
+  },
+  "name": {
+    "type": "profession_prefix",
+    "prefix": "Drone"
+  },
+  "name_color": {
+    "type": "random_palette"
+  },
+  "iq_level": {
+    "min": 1,
+    "max": 100
+  },
+  "interactives": [],
+  "quests": [],
+  "rewards": "zings_creatures_2:humanoids/technician_rewards"
+}
